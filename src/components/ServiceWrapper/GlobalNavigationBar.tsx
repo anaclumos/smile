@@ -4,7 +4,9 @@ const GlobalNavigationBar = () => {
   return (
     <GNB>
       <GNBContent>
-        <GNBTitle>Sunghyun's Smile System</GNBTitle>
+        <GNBTitle>
+          <AccentText>sunghyun</AccentText>✨'s smile system
+        </GNBTitle>
         <GNBDetail>
           <GNBLinks
             href="https://github.com/anaclumos/smile"
@@ -38,24 +40,53 @@ const GNBContent = styled.div`
 `
 
 const GNBTitle = styled.h1`
+  color: #eee;
   font-size: 1.5rem;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 0.5rem;
   width: 60%;
 `
 
 const GNBDetail = styled.div`
   position: relative;
   margin: auto;
-  right: 2rem;
+  right: 0.5rem;
 `
 
 const GNBLinks = styled.a`
-  color: #fff;
+  color: #eee;
   text-decoration: none;
+  transition: color 200ms ease-in-out;
+  -webkit-transition: color 200ms ease-in-out;
+  -moz-transition: color 200ms ease-in-out;
+  -o-transition: color 200ms ease-in-out;
+  -ms-transition: color 200ms ease-in-out;
   &:hover {
-    opacity: 50%;
+    color: #eee;
+    transition: color 200ms ease-in-out;
+    -webkit-transition: color 200ms ease-in-out;
+    -moz-transition: color 200ms ease-in-out;
+    -o-transition: color 200ms ease-in-out;
+    -ms-transition: color 200ms ease-in-out;
   }
+`
+
+const AccentText = styled.span`
+  background: linear-gradient(
+    to right,
+    #e5dcdd,
+    #ddc7ee,
+    #bcd8ed,
+    #e2ccf0,
+    #e7cceb,
+    #e7cceb,
+    #d4ccf5,
+    #dfbef7,
+    #f1c3e8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 `
 
 export default GlobalNavigationBar
