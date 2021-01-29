@@ -15,13 +15,10 @@ export default ServiceWrapper
 
 const Layout = styled.main`
   height: 100%;
-  justify-content: center;
-  background-color: #ffffff;
 `
 
 const ContentWrapper = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 1rem;
 `

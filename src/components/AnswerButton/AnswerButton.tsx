@@ -15,5 +15,6 @@ export const AnswerButton = (props: Props) => {
 }
 
 const AnswerButtonWrapper = styled.button`
-  margin: 2rem 2rem;
+  width: 100%;
+  margin: 1rem 0;
 `
