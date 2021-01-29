@@ -1,22 +1,24 @@
+import { allowedNodeEnvironmentFlags } from 'process'
+
 export const buttons = [
   {
     text: 'button 1 text',
-    func: () => console.log('button 1 pressed'),
+    func: () => alert('button 1 pressed'),
   },
   {
     text: 'button 2 text',
-    func: () => console.log('button 2 pressed'),
+    func: () => alert('button 2 pressed'),
   },
   {
     text: 'button 3 text',
-    func: () => console.log('button 3 pressed'),
+    func: () => alert('button 3 pressed'),
   },
   {
     text: 'button 4 text',
-    func: () => console.log('button 4 pressed'),
+    func: () => alert('button 4 pressed'),
   },
   {
     text: 'button 5 text',
-    func: () => console.log('button 5 pressed'),
+    func: () => alert('button 5 pressed'),
   },
 ]

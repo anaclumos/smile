@@ -4,13 +4,6 @@ import ServiceWrapper from '../../components/ServiceWrapper'
 import { buttons } from '../../data/data'
 
 const Evaluate = () => {
-  const onClickAnswerButton = useCallback(
-    (text) => () => {
-      console.log(text)
-    },
-    []
-  )
-
   return (
     <ServiceWrapper>
       {buttons.map((el) => {
