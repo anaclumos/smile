@@ -33,12 +33,8 @@ const GNB = styled.nav`
   background-color: #17171e;
   height: 5em;
   margin: auto;
-  border-bottom: 1px solid #343434;
+  border-bottom: 1px solid #2e2e3c;
   transition: 200ms;
-  &:hover {
-    border-color: #515151;
-    transition: 200ms;
-  }
 `
 
 const StyledGitHubLogo = styled(GitHubLogo)`
@@ -71,7 +67,7 @@ const GNBHomeLink = styled.a`
   text-decoration: none;
   cursor: pointer;
   transition: opacity 200ms;
-  &:hover {
+  &:active {
     opacity: 50%;
     transition: opacity 200ms;
   }
@@ -80,7 +76,7 @@ const GNBHomeLink = styled.a`
 const GNBSocialLinks = styled.a`
   text-decoration: none;
   transition: opacity 200ms;
-  &:hover {
+  &:active {
     opacity: 50%;
     transition: opacity 200ms;
   }
