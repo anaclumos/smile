@@ -1,20 +1,27 @@
+import Link from 'next/link'
 import React from 'react'
 import styled from 'styled-components'
+import GitHubLogo from './GitHubLogo.svg?inline'
+
 const GlobalNavigationBar = () => {
   return (
     <GNB>
       <GNBContent>
         <GNBTitle>
-          <AccentText>sunghyun</AccentText>✨'s smile system
+          <Link href="/">
+            <GNBHomeLink>
+              <AccentText>sunghyun</AccentText>✨'s smile system
+            </GNBHomeLink>
+          </Link>
         </GNBTitle>
         <GNBDetail>
-          <GNBLinks
+          <GNBSocialLinks
             href="https://github.com/anaclumos/smile"
             target="_blank"
             rel="noreferrer noopener"
           >
-            GitHub
-          </GNBLinks>
+            {<StyledGitHubLogo /> ? <StyledGitHubLogo /> : 'GitHub'}
+          </GNBSocialLinks>
         </GNBDetail>
       </GNBContent>
     </GNB>
@@ -23,49 +30,59 @@ const GlobalNavigationBar = () => {
 
 const GNB = styled.nav`
   width: 100%;
-  background-color: #000;
-  color: #fff;
+  background-color: #17171e;
   height: 5em;
   margin: auto;
+  border-bottom: 1px solid #343434;
+  transition: 200ms;
+  &:hover {
+    border-color: #515151;
+    transition: 200ms;
+  }
+`
+
+const StyledGitHubLogo = styled(GitHubLogo)`
+  fill: #fff;
+  width: 2rem;
+  height: 2rem;
 `
 
 const GNBContent = styled.div`
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  max-width: 100rem;
+  max-width: 50rem;
   margin: auto;
   display: flex;
 `
 
 const GNBTitle = styled.h1`
-  color: #eee;
   font-size: 1.5rem;
-  margin: 0 auto;
+  margin: auto auto auto 1rem;
   width: 50%;
 `
 
 const GNBDetail = styled.div`
   position: relative;
-  margin: auto;
-  right: 0.5rem;
+  margin: auto 1rem auto auto;
 `
 
-const GNBLinks = styled.a`
-  color: #eee;
+const GNBHomeLink = styled.a`
   text-decoration: none;
-  transition: color 200ms ease-in-out;
-  -webkit-transition: color 200ms ease-in-out;
-  -moz-transition: color 200ms ease-in-out;
-  -o-transition: color 200ms ease-in-out;
-  -ms-transition: color 200ms ease-in-out;
+  cursor: pointer;
+  transition: opacity 200ms;
   &:hover {
-    color: #eee;
-    transition: color 200ms ease-in-out;
-    -webkit-transition: color 200ms ease-in-out;
-    -moz-transition: color 200ms ease-in-out;
-    -o-transition: color 200ms ease-in-out;
-    -ms-transition: color 200ms ease-in-out;
+    opacity: 50%;
+    transition: opacity 200ms;
+  }
+`
+
+const GNBSocialLinks = styled.a`
+  text-decoration: none;
+  transition: opacity 200ms;
+  &:hover {
+    opacity: 50%;
+    transition: opacity 200ms;
   }
 `
 
