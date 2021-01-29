@@ -5,7 +5,9 @@ const GlobalNavigationBar = () => {
     <GNB>
       <GNBContent>
         <GNBTitle>
-          <AccentText>sunghyun</AccentText>✨'s smile system
+          <AccentText>sunghyun</AccentText>✨'s
+          <br />
+          smile system
         </GNBTitle>
         <GNBDetail>
           <GNBLinks
@@ -43,7 +45,6 @@ const GNBTitle = styled.h1`
   color: #eee;
   font-size: 1.5rem;
   margin: 0 auto;
-  padding: 0 0.5rem;
   width: 60%;
 `
 
