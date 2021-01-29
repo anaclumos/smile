@@ -1,9 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import GlobalNavigationBar from './GlobalNavigationBar'
 
 const ServiceWrapper: React.FC = ({ children }) => {
   return (
     <Layout>
+      <GlobalNavigationBar />
       <ContentWrapper>{children}</ContentWrapper>
     </Layout>
   )
@@ -13,8 +15,6 @@ export default ServiceWrapper
 
 const Layout = styled.main`
   height: 100%;
-  min-height: 100vh;
-  display: flex;
   justify-content: center;
   background-color: #ffffff;
 `
