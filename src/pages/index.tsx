@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styled from 'styled-components'
 
 import ServiceWrapper from '../components/ServiceWrapper'
@@ -7,16 +8,11 @@ const Home = () => {
   return (
     <ServiceWrapper>
       <h1>Hello World</h1>
-      <TestingHR />
-      Testing Text
+      <Link href="/sommelier">
+        <a>Start</a>
+      </Link>
     </ServiceWrapper>
   )
 }
-
-const TestingHR = styled.hr`
-  width: 100%;
-  background-color: #e5732f;
-  height: 10px;
-`
 
 export default Home

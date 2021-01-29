@@ -6,13 +6,9 @@ const GlobalStyle = createGlobalStyle`
 
   * {
     box-sizing: border-box;
-  }
-
-  body {
     margin: 0 auto;
     font-family: -apple-system, system-ui, BlinkMacSystemFont,
       "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    max-width: 800px;
   }
 `
 
