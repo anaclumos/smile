@@ -23,7 +23,6 @@ const GlobalNavigationBar = () => {
 
 const GNB = styled.nav`
   width: 100%;
-  position: absolute;
   background-color: #000;
   color: #fff;
   height: 5em;
