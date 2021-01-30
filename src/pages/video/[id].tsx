@@ -3,7 +3,7 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import { Answer, Video } from '../../interfaces'
 import ServiceWrapper from '../../components/ServiceWrapper'
 import QuestionViewer from '../../components/QuestionViewer'
-import { videoData } from '../../data/assets'
+import { videoData } from '../../data/videos'
 import VideoViewer from '../../components/VideoViewer'
 
 type Props = {
@@ -32,8 +32,8 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
 export default StaticPropsDetail
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = videoData.map((question) => ({
-    params: { id: question.id.toString() },
+  const paths = videoData.map((el) => ({
+    params: { id: el.id.toString() },
   }))
   return { paths, fallback: false }
 }

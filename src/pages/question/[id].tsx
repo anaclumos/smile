@@ -3,7 +3,7 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import { Question, Answer, Video } from '../../interfaces'
 import ServiceWrapper from '../../components/ServiceWrapper'
 import QuestionViewer from '../../components/QuestionViewer'
-import { questionData } from '../../data/assets'
+import { questionData } from '../../data/questions'
 
 type Props = {
   item?: Question
