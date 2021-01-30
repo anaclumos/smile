@@ -62,9 +62,13 @@ const AnswerOption = styled.div`
 `
 
 const AnswerWrapper = styled.div`
-  width: 80%;
+  word-break: keep-all;
+  width: 90%;
   text-decoration: none;
   font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
 `
 
 const UnstyledLinks = styled.a`
