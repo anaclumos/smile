@@ -1,9 +1,9 @@
-import { allowedNodeEnvironmentFlags } from 'process'
+import { incrementStorage } from './storage'
 
 export const buttons = [
   {
     text: 'button 1 text',
-    func: () => alert('button 1 pressed'),
+    func: () => incrementStorage('button1', 1),
   },
   {
     text: 'button 2 text',

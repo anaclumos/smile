@@ -1,11 +1,20 @@
 import React, { useCallback } from 'react'
-import { AnswerButton } from '../../components/AnswerButton'
 import ServiceWrapper from '../../components/ServiceWrapper'
+import { AnswerButton } from '../../components/AnswerButton'
 import { buttons } from '../../data/data'
+import { Question, StatusViewer } from '../../components/Question'
+import { exportStorage, storage } from '../../data/storage'
 
 const TestForm = () => {
+  const useExportStorage = useCallback(() => {
+    const storageStatus = exportStorage()
+    console.log(storageStatus)
+    return storageStatus
+  }, [storage])
   return (
     <ServiceWrapper>
+      <StatusViewer status={useExportStorage()} />
+      <Question />
       {buttons.map((el) => {
         return (
           <AnswerButton
