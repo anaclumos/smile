@@ -3,7 +3,7 @@ import { AnswerButton } from '../../components/AnswerButton'
 import ServiceWrapper from '../../components/ServiceWrapper'
 import { buttons } from '../../data/data'
 
-const Evaluate = () => {
+const TestForm = () => {
   return (
     <ServiceWrapper>
       {buttons.map((el) => {
@@ -19,4 +19,4 @@ const Evaluate = () => {
   )
 }
 
-export default Evaluate
+export default TestForm

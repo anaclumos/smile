@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <ServiceWrapper>
       <h1>Hello World</h1>
-      <Link href="/evaluate">
+      <Link href="/test">
         <a>Start</a>
       </Link>
     </ServiceWrapper>
