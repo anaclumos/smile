@@ -10,7 +10,7 @@ const GlobalNavigationBar = () => {
         <GNBTitle>
           <Link href="/">
             <GNBHomeLink>
-              <AccentText>sunghyun</AccentText>✨'s smile system
+              <AccentText>sunghyun</AccentText>'s smile system
             </GNBHomeLink>
           </Link>
         </GNBTitle>
