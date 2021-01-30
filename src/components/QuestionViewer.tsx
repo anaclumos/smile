@@ -15,7 +15,6 @@ const QuestionViewer = ({ question: question }: Props) => {
       <br />
       <ul>
         {question.answers.map((el: Answer) => {
-          console.log(el.result)
           return (
             <li key={`key-${el.id}-${el.content}-${el.nextQuestion}`}>
               {el.result ? (
