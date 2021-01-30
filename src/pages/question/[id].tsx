@@ -22,7 +22,7 @@ const StaticPropsDetail = ({ item, errors }: Props) => {
   }
 
   return (
-    <ServiceWrapper title={`${item ? item.content : 'Question'}`}>
+    <ServiceWrapper title={`${item ? `Question #` + item.id : 'Question'}`}>
       {item && <QuestionViewer question={item} />}
     </ServiceWrapper>
   )

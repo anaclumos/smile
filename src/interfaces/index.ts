@@ -1,6 +1,6 @@
 export type Question = {
   id: number
-  content: string
+  contents: string[]
   answers: Answer[]
 }
 
