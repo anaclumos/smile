@@ -11,14 +11,27 @@ const VideoViewer = ({ video: video }: Props) => {
     <div>
       <VideoHeader>{video.title}</VideoHeader>
       <VideoDesc>{video.desc}</VideoDesc>
-      <YouTubeIframeWrapper>
-        <YouTubeIframe
-          src={`https://www.youtube.com/embed/${video.youtubeId}`}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </YouTubeIframeWrapper>
+      {console.log(video)}
+      {video.id === 0 ? (
+        <UnstyledLinks
+          href={`https://youtu.be/${video.youtubeId}`}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <GoToYouTubeButton>
+            <ButtonWrapper>Go Watch it on YouTube</ButtonWrapper>
+          </GoToYouTubeButton>
+        </UnstyledLinks>
+      ) : (
+        <YouTubeIframeWrapper>
+          <YouTubeIframe
+            src={`https://www.youtube.com/embed/${video.youtubeId}`}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </YouTubeIframeWrapper>
+      )}
     </div>
   )
 }
@@ -48,4 +61,37 @@ const VideoDesc = styled.p`
   line-break: keep-all;
   line-height: 1.6;
 `
+
+const GoToYouTubeButton = styled.div`
+  border: 2px solid #2e2e3c;
+  border-radius: 1rem;
+  min-height: 5rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  transition: background-color 200ms;
+  &:hover {
+    transition: background-color 200ms;
+    background-color: #700000;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+`
+
+const ButtonWrapper = styled.div`
+  word-break: keep-all;
+  width: 90%;
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+`
+const UnstyledLinks = styled.a`
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+`
+
 export default VideoViewer

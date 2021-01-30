@@ -17,11 +17,11 @@ const QuestionViewer = ({ question: question }: Props) => {
       <br />
       {question.answers.map((el: Answer) => {
         return (
-          <>
+          <div key={`key-${el.id}-${el.result}`}>
             {el.result ? (
               <Link href={`../video/${el.result}`}>
                 <UnstyledLinks>
-                  <AnswerOption key={`key-${el.id}-${el.result}`}>
+                  <AnswerOption>
                     <AnswerWrapper>{el.content}</AnswerWrapper>
                   </AnswerOption>
                 </UnstyledLinks>
@@ -29,13 +29,13 @@ const QuestionViewer = ({ question: question }: Props) => {
             ) : (
               <Link href={`./${el.nextQuestion}`}>
                 <UnstyledLinks>
-                  <AnswerOption key={`key-${el.id}-${el.nextQuestion}`}>
+                  <AnswerOption>
                     <AnswerWrapper>{el.content}</AnswerWrapper>
                   </AnswerOption>
                 </UnstyledLinks>
               </Link>
             )}
-          </>
+          </div>
         )
       })}
     </div>
