@@ -13,6 +13,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: -apple-system, system-ui, BlinkMacSystemFont,
       "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
+  p, a {
+    font-size: 20px;
+  }
 `
 
 export default GlobalStyle

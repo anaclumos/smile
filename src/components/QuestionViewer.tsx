@@ -58,6 +58,8 @@ const AnswerOption = styled.div`
   &:hover {
     transition: background-color 200ms;
     background-color: #2e2e3c;
+    cursor: pointer;
+    pointer-events: auto;
   }
 `
 
@@ -68,6 +70,7 @@ const AnswerWrapper = styled.div`
   font-size: 20px;
   &:hover {
     cursor: pointer;
+    pointer-events: auto;
   }
 `
 
