@@ -83,7 +83,8 @@ export const videoData = [
     id: 1,
     title: '나가지 말라면 나가지 마',
     uploader: '위즈원아님',
-    desc: 'So you like IZ*ONE?',
+    desc:
+      'So you like IZ*ONE? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac porta justo, non laoreet nibh. Curabitur purus ligula, egestas et ultrices in, laoreet in sapien. ',
     youtubeId: 'RQbNZhDey3c',
   },
   {
