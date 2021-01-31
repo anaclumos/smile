@@ -26,7 +26,7 @@ export const videoData = [
     id: 2,
     title: `How You Like Y.M.C.A.`,
     uploader: `J.E.B`,
-    desc: `I had a terribly hard time getting rid of this brainworm. If you are about to take any serious exams, please do not watch this. Otherwise, enjoy the addiction 💊`,
+    desc: `I had a terribly hard time getting rid of this earworm. If you are about to take any serious exams, please do not watch this. Otherwise, enjoy the addiction 💊`,
     youtubeId: `NY3iWMyp8y8`,
   },
   {
