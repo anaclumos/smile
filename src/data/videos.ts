@@ -7,7 +7,8 @@
 
 export const videoData = [
   {
-    id: 0,
+    // used
+    id: 999,
     title: `Ok, you are hard...`,
     desc: `Seems like you are having difficult time making up your mind. But no worries, I got the best video.`,
     youtubeId: `dQw4w9WgXcQ`,
@@ -69,38 +70,43 @@ export const videoData = [
     youtubeId: `XuByMZzLxpM`,
   },
   {
+    // used
     id: 8,
-    title: `Tired of Zoom Classes? Well, they were the same...`,
+    title: `Bored of Zoom Classes?`,
     uploader: `Osro`,
-    desc: ``,
+    desc: `Well, they were the same in the past as well...`,
     youtubeId: `CAYDRIbXFAc`,
   },
   {
+    // used
     id: 10,
     title: `When PUBG gives you flashbangs...`,
     uploader: `PaluluMan`,
-    desc: `Sorry!`,
+    desc: `Hey, sorry! I only played PUBG before so I don't know any Fortnite, Apex, Valorant, Overwatch memes 😥 But if you ever happened to play PUBG, you would like video a lot.`,
     youtubeId: `95exPV5l-tk`,
   },
   {
+    // used
     id: 11,
     title: `Nuclear "Lunch"`,
     uploader: `맹독충`,
-    desc: `Are you into StarCraft? Then... hang in tight... Cuz we are all gonna get nuked (Turn on Subtitles)`,
+    desc: `Are you into RTS? Then... pretty sure you like SC2. Hang in tight... Cuz we are all gonna get nuked! Oh, Turn on English Subtitles.`,
     youtubeId: `5A3tc6AO0K0`,
   },
   {
+    // used
     id: 12,
     title: `La La CyberPunk`,
     uploader: `Sion`,
-    desc: `CyberBug now also supports Musical Feature`,
+    desc: `You... didn't buy CyberBug right? It has a new feature, called musical mode, where everyone on the road would perform a perfectly synced choreography.`,
     youtubeId: `XvQEsB8UD2U`,
   },
   {
+    // used
     id: 13,
-    title: `Daaat old games`,
+    title: `Daaat old games...`,
     uploader: `CalebCity`,
-    desc: `The world stops during dialogues.`,
+    desc: `...stops the world during dialogues. You have played one of these, right?`,
     youtubeId: `GfFQTt_nkJM`,
   },
   {
@@ -127,6 +133,7 @@ export const videoData = [
     youtubeId: `MAlSjtxy5ak`,
   },
   {
+    // used
     id: 17,
     title: `If Programming was an Anime...`,
     uploader: `Joma Tech`,
@@ -134,7 +141,7 @@ export const videoData = [
     youtubeId: `pKO9UjSeLew`,
   },
   {
-    // used, but will be used again
+    // used
     id: 18,
     title: `Midzy is coding a whole web app on an iPhone`,
     uploader: `Joma Tech`,
@@ -166,28 +173,31 @@ export const videoData = [
     youtubeId: `rR4n-0KYeKQ`,
   },
   {
+    // used
     id: 22,
-    title: `Can you tell the time?`,
+    title: `It's 3:55 AM.`,
     uploader: `irish332`,
-    desc: `Get home early. Oh, I forgot we can't even go outside...`,
+    desc: `Well, you're sober at least?`,
     youtubeId: `zhf1pIl007o`,
   },
   {
+    // used
     id: 23,
-    title: `Desktop Cleanup`,
+    title: `Got Hardware Problems?`,
     uploader: `Big Play Films`,
-    desc: `Well, tired of Zoom?`,
+    desc: `At least yours didn't disappear?`,
     youtubeId: `o_XaJdDqQA0`,
   },
-
   {
+    // used
     id: 24,
-    title: `Windows Errored.`,
+    title: `Got Software Problems?`,
     uploader: `4096`,
-    desc: `What song do you like? Well, it's complicated...`,
+    desc: `This is a video that could help fixing your Software Problem. By showing more errors.`,
     youtubeId: `5BZLz21ZS_Y`,
   },
   {
+    // used
     id: 25,
     title: `Zoomcident`,
     uploader: `BBC News`,
@@ -195,13 +205,15 @@ export const videoData = [
     youtubeId: `Mh4f9AYRCZY`,
   },
   {
+    // used
     id: 26,
     title: `Dumbledore`,
     uploader: `ong John Shlongson`,
-    desc: `Dumbledore!`,
+    desc: `asked calmly...`,
     youtubeId: `IdoD2147Fik`,
   },
   {
+    // used
     id: 27,
     title: `No time for Concussion`,
     uploader: ` nihonium`,
@@ -209,6 +221,7 @@ export const videoData = [
     youtubeId: `3Z0vKaIRrmw`,
   },
   {
+    // used
     id: 28,
     title: `Avengers Endgame, but it's low budget`,
     uploader: `But It's Low Budget`,
@@ -217,13 +230,15 @@ export const videoData = [
     youtubeId: `edoxdRs6haA`,
   },
   {
+    // used
     id: 29,
     title: `Give me a Rent!`,
     uploader: `Tobey in the MCU`,
-    desc: `tobey was the best spiderman`,
+    desc: `Ah, it's no big deal...`,
     youtubeId: `YTCN4Wr_9eQ`,
   },
   {
+    // used
     id: 30,
     title: `Don't try it!`,
     uploader: `Janobot`,
@@ -232,13 +247,15 @@ export const videoData = [
     youtubeId: `7Ood-IE7sx4`,
   },
   {
+    // used
     id: 31,
     title: `Grievous with too many lightsabers`,
     uploader: `Yusi-D-Jordan`,
-    desc: ``,
+    desc: `One just can't multitask.`,
     youtubeId: `EGyfdtW5zn0`,
   },
   {
+    // used
     id: 32,
     title: `Rey is a Genius?`,
     uploader: `EliteMasterLordofAll`,
@@ -276,5 +293,29 @@ export const videoData = [
     uploader: `PawPaw`,
     desc: `I think I listened to Dynamite about 1,000 times last summer... Here's your meme.`,
     youtubeId: `kCXDaft_NGo`,
+  },
+  {
+    // used
+    id: 37,
+    title: `Super Smash Heaven`,
+    uploader: `64 Bits`,
+    desc: `You know, right? I don't get why Nintendo doesn't release Rhythm Heaven on Switch with Nintendo IPs.`,
+    youtubeId: `DJJmpVvEQ94`,
+  },
+  {
+    // used
+    id: 38,
+    title: `Modern Lightsaber Battle`,
+    uploader: `Mr.TVCow`,
+    desc: `You thought the cross light saber was the only thing cool?`,
+    youtubeId: `kgSylgBFi-I`,
+  },
+  {
+    // used
+    id: 39,
+    title: `Doctor Strange and the Multiverse of memes`,
+    uploader: `timothysTV`,
+    desc: `Q: How do I get here from there? A: You just *don't give up*`,
+    youtubeId: `5nV_8QpzoYY`,
   },
 ]

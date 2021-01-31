@@ -11,8 +11,7 @@ const VideoViewer = ({ video: video }: Props) => {
     <div>
       <VideoHeader>{video.title}</VideoHeader>
       <VideoDesc>{video.desc}</VideoDesc>
-      {console.log(video)}
-      {video.id === 0 ? (
+      {video.id === 999 ? (
         <UnstyledLinks
           href={`https://youtu.be/${video.youtubeId}`}
           target="_blank"

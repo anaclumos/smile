@@ -26,20 +26,20 @@ export const questionData: Question[] = [
     answers: [
       {
         id: 1,
-        content: `Every day, every hour, every minute. Music is my blood 💉`,
-        nextQuestion: 2,
+        content: 'Not so much, maybe on YouTube sometimes?',
+        nextQuestion: 10,
         result: null,
       },
       {
         id: 2,
-        content: 'Sometimes, like when I am coding 🔥',
+        content: 'Quite a lot, for example when I am coding 🔥',
         nextQuestion: 6,
         result: null,
       },
       {
         id: 3,
-        content: 'Not so much, maybe on YouTube sometimes?',
-        nextQuestion: 0,
+        content: `Always. Music is my blood 💉`,
+        nextQuestion: 2,
         result: null,
       },
     ],
@@ -47,8 +47,7 @@ export const questionData: Question[] = [
   {
     id: 2,
     contents: [
-      `Oh yeah? I also enjoy music a lot. I mean, a lot.`,
-      `Do you have any specific genres in mind?`,
+      `Oh yeah? I also enjoy music a lot. I mean, a lot. Do you have any specific genres in mind?`,
     ],
     answers: [
       {
@@ -294,4 +293,242 @@ export const questionData: Question[] = [
       },
     ],
   },
-] // this is all handmade, curated one by one... rlly tough TBH (but i enjoyed)
+  {
+    id: 10,
+    contents: [
+      `Hmm, that's interesting to listen. FYI, I'll suffocate if there's no music around.`,
+      `Then, are you familiar with games? Do you game a lot?`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `No... not any more.`,
+        nextQuestion: 13,
+        result: null,
+      },
+      {
+        id: 2,
+        content: `I am proud to say that I am a gamer.`,
+        nextQuestion: 11,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 11,
+    contents: [
+      `Now we're talking 😎 Gamer here too.`,
+      `Suppose that you can only play only one genre for the rest of your life, what would it be?`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `Console Games. Exclusive games are dope.`,
+        nextQuestion: 12,
+        result: null,
+      },
+      {
+        id: 2,
+        content: `FPS, no hesitation! Fortnite, Apex, PUBG...`,
+        nextQuestion: null,
+        result: 10,
+      },
+      {
+        id: 3,
+        content: `Smart people play RTS. Others are for children.`,
+        nextQuestion: null,
+        result: 11,
+      },
+      {
+        id: 4,
+        content: `Not on this list. Come on Sunghyun.`,
+        nextQuestion: null,
+        result: 13,
+      },
+    ],
+  },
+  {
+    id: 12,
+    contents: [
+      `LOL I never owned a console after Wii 😂 I envy you. What platform is your favorite?`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `Nintendo. Mario 🍄 and Zelda ⚔️`,
+        nextQuestion: null,
+        result: 37,
+      },
+      {
+        id: 2,
+        content: `Xbox & PlayStation`,
+        nextQuestion: null,
+        result: 12,
+      },
+    ],
+  },
+  {
+    id: 13,
+    contents: [
+      `Ok - It's getting into a rabbit hole. Then, you surely binge on Netflix and Movies, right?`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `Not really. I am too busy attending our Zoom Univ these days.`,
+        nextQuestion: 17,
+        result: null,
+      },
+      {
+        id: 2,
+        content: `Sure! New movies and videos are always refreshing.`,
+        nextQuestion: 14,
+        result: null,
+      },
+    ],
+  },
+  {
+    id: 14,
+    contents: [`Great!! Pick your favorite franchise. Decide quickly.`],
+    answers: [
+      {
+        id: 1,
+        content: `Starwars Saga. Never gets old.`,
+        nextQuestion: 15,
+        result: null,
+      },
+      {
+        id: 2,
+        content: `Marvel Cinematic Universe. Miss those days in theater.`,
+        nextQuestion: 16,
+        result: null,
+      },
+      {
+        id: 3,
+        content: `Harry Potter series. Hermione was my first love.`,
+        nextQuestion: null,
+        result: 26,
+      },
+      {
+        id: 4,
+        content: `Interstellar, or any Nolan movies.`,
+        nextQuestion: null,
+        result: 27,
+      },
+    ],
+  },
+  {
+    id: 15,
+    contents: [
+      `If you could be a Jedi or a Sith... Who would you choose to be?`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `Anakin Skywalker. The Protagonist.`,
+        nextQuestion: null,
+        result: 30,
+      },
+      {
+        id: 2,
+        content: `Rey. The last Jedi.`,
+        nextQuestion: null,
+        result: 32,
+      },
+      {
+        id: 3,
+        content: `Kylo Ren. That sick cross lightsaber.`,
+        nextQuestion: null,
+        result: 38,
+      },
+      {
+        id: 4,
+        content: `General Grievous is seriously underrated.`,
+        nextQuestion: null,
+        result: 31,
+      },
+    ],
+  },
+  {
+    id: 16,
+    contents: [`Pick your favorite. Think fast.`],
+    answers: [
+      {
+        id: 1,
+        content: `The Triumvirate. Iron Man, Captain America, and Thor.`,
+        nextQuestion: null,
+        result: 28,
+      },
+      {
+        id: 2,
+        content: `Doctor Strange.`,
+        nextQuestion: null,
+        result: 39,
+      },
+      {
+        id: 3,
+        content: `Spiderman, but I think Tobey was better...`,
+        nextQuestion: null,
+        result: 29,
+      },
+    ],
+  },
+  {
+    id: 17,
+    contents: [
+      `Oh Ok. I totally get that. What's the most difficult thing for you attending Zoom Classes?`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `I don't know, I just don't know...`,
+        nextQuestion: null,
+        result: 999,
+      },
+      {
+        id: 2,
+        content: `I got technical problems.`,
+        nextQuestion: 18,
+        result: null,
+      },
+      {
+        id: 3,
+        content: `My families keep enter my room.`,
+        nextQuestion: null,
+        result: 25,
+      },
+      {
+        id: 4,
+        content: `I am time zone impacted.`,
+        nextQuestion: null,
+        result: 22,
+      },
+      {
+        id: 5,
+        content: `Classes are boring. Really.`,
+        nextQuestion: null,
+        result: 8,
+      },
+    ],
+  },
+  {
+    id: 18,
+    contents: [
+      `Yikes. Technical Problems can be really hard. What's your technical problem? Maybe I can help.`,
+    ],
+    answers: [
+      {
+        id: 1,
+        content: `Software Problems.`,
+        nextQuestion: null,
+        result: 24,
+      },
+      {
+        id: 2,
+        content: `Hardware Problems.`,
+        nextQuestion: null,
+        result: 23,
+      },
+    ],
+  },
+] // this storyline is all handmade, curated one by one... rlly tough TBH (but i enjoyed)
