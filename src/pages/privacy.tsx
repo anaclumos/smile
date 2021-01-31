@@ -5,7 +5,9 @@ const PrivacyPage = () => {
   return (
     <ServiceWrapper>
       <h1>Privacy Policy</h1>
-      <p>I don't collect any data. Have a good day.</p>
+      <p>
+        I use Google Analytics on this website. No other data are collected.
+      </p>
     </ServiceWrapper>
   )
 }

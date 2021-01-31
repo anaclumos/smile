@@ -19,6 +19,20 @@ const ServiceWrapper = ({
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CB3E6DXP0Y"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '[Tracking ID]');
+        `,
+          }}
+        />
       </Head>
       <GlobalNavigationBar />
       <ContentWrapper>{children}</ContentWrapper>
