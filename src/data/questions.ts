@@ -20,8 +20,8 @@ export const questionData: Question[] = [
   {
     id: 1,
     contents: [
-      `Alrighty. Let's get started. The entire purpose of this project is to find the best meme match for you that will make you smile. I cannot see who choosed what responses, so no worries.`,
-      `Ok. So for the first question. How often do you enjoy your music?`,
+      `Alrighty. Let's get started. The entire purpose of this project is to find the best meme match for you that will make you smile. I cannot see who chose what response, so no worries on that.`,
+      `Ok. The first question. How often do you enjoy your music?`,
     ],
     answers: [
       {
