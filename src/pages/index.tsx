@@ -25,8 +25,12 @@ const Home = () => {
         tough times.
       </SpaciousParagraphs>
       <SpaciousParagraphs>
-        Think this as a choice-driven game like Black Mirror: Bandersnatch. Hope
-        everyone is doing great, and please, enjoy!
+        Think this as a choice-driven game like Black Mirror: Bandersnatch. You
+        can always go back and choose a different choice to see a different
+        ending.
+      </SpaciousParagraphs>
+      <SpaciousParagraphs>
+        Hope everyone is doing great, and please, enjoy!
       </SpaciousParagraphs>
       <Link href="/question/1">
         <StartTestButtonATag>
