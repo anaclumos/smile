@@ -10,7 +10,7 @@ type Props = {
 const QuestionViewer = ({ question: question }: Props) => {
   return (
     <div>
-      <QuestionHeader>Question #{question.id}.</QuestionHeader>
+      <QuestionHeader>Q.</QuestionHeader>
       {question.contents.map((el: string) => {
         return <Paragraph key={`key-${el}`}>{el}</Paragraph>
       })}
