@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react'
 import styled from 'styled-components'
 import GlobalNavigationBar from './GlobalNavigationBar'
+import GlobalFooter from './GlobalFooter'
 import Head from 'next/head'
 
 type Props = {
@@ -21,6 +22,7 @@ const ServiceWrapper = ({
       </Head>
       <GlobalNavigationBar />
       <ContentWrapper>{children}</ContentWrapper>
+      <GlobalFooter />
     </Layout>
   )
 }
