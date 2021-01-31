@@ -26,7 +26,7 @@ export const videoData = [
     id: 2,
     title: `How You Like Y.M.C.A.`,
     uploader: `J.E.B`,
-    desc: `I had a terribly hard times getting rid of this brainworm. If you are about to take any serious exams, please do not watch this. Otherwise, enjoy the addiction 💊`,
+    desc: `I had a terribly hard time getting rid of this brainworm. If you are about to take any serious exams, please do not watch this. Otherwise, enjoy the addiction 💊`,
     youtubeId: `NY3iWMyp8y8`,
   },
   {
@@ -242,8 +242,7 @@ export const videoData = [
     id: 30,
     title: `Don't try it!`,
     uploader: `Janobot`,
-    desc: `Luke: How did my father died?
-    Obi Wan: He tried it.`,
+    desc: `Luke: How did my father die? Obi Wan: He tried it.`,
     youtubeId: `7Ood-IE7sx4`,
   },
   {
