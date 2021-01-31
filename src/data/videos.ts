@@ -106,7 +106,7 @@ export const videoData = [
     id: 13,
     title: `Daaat old games...`,
     uploader: `CalebCity`,
-    desc: `...stops the world during dialogues. You have played one of these, right?`,
+    desc: `...stop the world during dialogues. You have played one of these, right?`,
     youtubeId: `GfFQTt_nkJM`,
   },
   {
