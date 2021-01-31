@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import styled from 'styled-components'
 import { Video } from '../interfaces'
@@ -31,6 +32,13 @@ const VideoViewer = ({ video: video }: Props) => {
           />
         </YouTubeIframeWrapper>
       )}
+      <Link href="/thank-you">
+        <InteractionButtonATag>
+          <InteractionButton>
+            <InteractionButtonWrapper>I like it!</InteractionButtonWrapper>
+          </InteractionButton>
+        </InteractionButtonATag>
+      </Link>
     </div>
   )
 }
@@ -54,6 +62,36 @@ const YouTubeIframe = styled.iframe`
   left: 0;
   bottom: 0;
   right: 0;
+`
+
+const InteractionButton = styled.div`
+  border: 2px solid #2e2e3c;
+  border-radius: 1rem;
+  min-height: 5rem;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  transition: background-color 200ms;
+  &:hover {
+    transition: background-color 200ms;
+    background-color: #35a353;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+`
+
+const InteractionButtonWrapper = styled.div`
+  word-break: keep-all;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+`
+
+const InteractionButtonATag = styled.a`
+  text-decoration: none;
 `
 
 const VideoDesc = styled.p`
@@ -80,6 +118,7 @@ const ButtonWrapper = styled.div`
   word-break: keep-all;
   width: 90%;
   text-decoration: none;
+  text-align: center;
   font-size: 20px;
   &:hover {
     cursor: pointer;
