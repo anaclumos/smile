@@ -82,7 +82,7 @@ export const videoData = [
     id: 10,
     title: `When PUBG gives you flashbangs...`,
     uploader: `PaluluMan`,
-    desc: `Hey, sorry! I only played PUBG before so I don't know any Fortnite, Apex, Valorant, Overwatch memes 😥 But if you ever happened to play PUBG, you would like video a lot.`,
+    desc: `Hey, sorry! I only played PUBG before so I don't know any Fortnite, Apex, Valorant, or Overwatch memes 😥 But if you ever happened to play PUBG, you would like video a lot.`,
     youtubeId: `95exPV5l-tk`,
   },
   {
@@ -193,7 +193,7 @@ export const videoData = [
     id: 24,
     title: `Got Software Problems?`,
     uploader: `4096`,
-    desc: `This is a video that could help fixing your Software Problem. By showing more errors.`,
+    desc: `This is a video that could help fixing your Software Problem. By showing you more errors.`,
     youtubeId: `5BZLz21ZS_Y`,
   },
   {
@@ -275,7 +275,7 @@ export const videoData = [
     id: 34,
     title: `Havanald Trump`,
     uploader: `Maestro Ziikos`,
-    desc: `Havana is so good! What about trying this video? Now that we have a new president, I guess this video will feel a bit different...`,
+    desc: `Now that we have a new president, I guess this video will feel a bit different...`,
     youtubeId: `74gx0v5ZJzw`,
   },
   {
@@ -283,7 +283,7 @@ export const videoData = [
     id: 35,
     title: `I Love You 3000 by Yujin of IZ*ONE`,
     uploader: `official IZ*ONE`,
-    desc: `Stephanie Poetri's song is so great. I know this isn't anything meme-ic or funny, but this video always put a smile on me. Wanna give it a shot?`,
+    desc: `Stephanie Poetri's song is so great! Wanna give K-pop version a shot?`,
     youtubeId: `X3_Vj4LPYg0`,
   },
   {

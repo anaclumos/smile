@@ -179,7 +179,7 @@ export const questionData: Question[] = [
     answers: [
       {
         id: 1,
-        content: `C++ is the best. Fast, reliable, and omnipotent. Other's are for noobs.`,
+        content: `C++ is the best. Fast, reliable, and omnipotent. Others are for noobs.`,
         nextQuestion: 7,
         result: null,
       },
@@ -493,7 +493,7 @@ export const questionData: Question[] = [
       },
       {
         id: 3,
-        content: `My families keep enter my room.`,
+        content: `My families keep entering my room.`,
         nextQuestion: null,
         result: 25,
       },
