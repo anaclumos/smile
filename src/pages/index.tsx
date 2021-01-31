@@ -11,7 +11,10 @@ const Home = () => {
       <SpaciousParagraphs>
         Hi! I am{' '}
         <AccentText>
-          <strong>Sunghyun Cho</strong>
+          <strong>Sunghyun</strong>
+        </AccentText>{' '}
+        <AccentText>
+          <strong>Cho</strong>
         </AccentText>
         .
       </SpaciousParagraphs>
@@ -19,7 +22,10 @@ const Home = () => {
         I have noticed that I had too many memes and videos to write on my
         app... So I created a small{' '}
         <AccentText>
-          <strong>Recommendation System</strong>
+          <strong>recommendation</strong>
+        </AccentText>{' '}
+        <AccentText>
+          <strong>system</strong>
         </AccentText>{' '}
         for you all. Indeed, we could all use some positivity around during this
         tough time.
