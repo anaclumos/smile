@@ -27,7 +27,7 @@ const GlobalFooter = () => {
       <br />
       <CopyrightWrapper>
         <Copyright
-          href="https://github.com/anaclumos/smile/blob/main/LICENSEe"
+          href="https://github.com/anaclumos/smile/blob/main/LICENSE"
           target="_blank"
           rel="noreferrer noopener"
         >
