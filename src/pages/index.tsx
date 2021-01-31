@@ -22,7 +22,7 @@ const Home = () => {
           <strong>Recommendation System</strong>
         </AccentText>{' '}
         for you all. Indeed, we could all use some positivity around during this
-        tough times.
+        tough time.
       </SpaciousParagraphs>
       <SpaciousParagraphs>
         Think this as a choice-driven game like Black Mirror: Bandersnatch. You
