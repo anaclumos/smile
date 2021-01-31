@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
+  @import url('https://rsms.me/inter/inter.css');
   body{
     background-color: #17171e !important;
   }
@@ -10,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     color: #e3e4e5;
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont,
+    font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont,
       "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   p, a {
