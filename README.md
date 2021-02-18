@@ -6,8 +6,8 @@ This is a meme-recommending system, based on my YouTube life. Think this as a sm
 
 | Tech Type        | Tech Stack                     |
 | ---------------- | ------------------------------ |
-| Front-end        | TypeScript React (Next)        |
-| Front-end Server | Vercel                         |
-| DNS              | AWS Route 53 with CloudFlare   |
-| Database         | Static assets hosted on Vercel |
-| Analytics        | Google Analytics               |
+| Front-end        | ![](https://img.shields.io/static/v1?label=&message=Next.js&logo=Next.js&color=000000&logoColor=white&style=flat-square) ![](https://img.shields.io/static/v1?label=&message=Typescript&logo=Typescript&color=007ACC&logoColor=white&style=flat-square) ![](https://img.shields.io/static/v1?label=&message=React&logo=react&color=61DAFB&logoColor=black&style=flat-square) ![](https://img.shields.io/static/v1?label=&message=Styled-Compoenent&logo=styled-components&color=DB7093&logoColor=white&style=flat-square)        |
+| Front-end Server | ![](https://img.shields.io/static/v1?label=&message=Vercel&logo=Vercel&color=000000&logoColor=white&style=flat-square)|
+| DNS              | ![](https://img.shields.io/static/v1?label=&message=AWS&logo=amazon-aws&color=232F3E&logoColor=white&style=flat-square) ![](https://img.shields.io/static/v1?label=&message=Cloudflare&logo=Cloudflare&color=F38020&logoColor=white&style=flat-square)  |
+| Database         | ![](https://img.shields.io/static/v1?label=&message=Vercel&logo=Vercel&color=000000&logoColor=white&style=flat-square) |
+| Analytics        | ![](https://img.shields.io/static/v1?label=&message=Google-Analytics&logo=Google-Analytics&color=E37400&logoColor=white&style=flat-square) |
